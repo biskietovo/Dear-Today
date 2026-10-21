@@ -7,8 +7,9 @@ this website is a scrapbook style daily diary built with HTML, CSS and JavaScrip
 3. Stop the server with "Ctrl+C".
 
 ## how to use it
-you can choose a date and any type of emojis into each three boxes to decorate your own diary book
-you can add an optional title or note, it's up to you
+you can choose a date and any type of emojis into each three boxes to decorate your own diary book.
+
+you can add an optional title or note, it's up to you.
 - Live preview updates automatically when you change your content.
 - Browse emoji categories, search keywords or pick from frequently used emojis in the emoji pocket.
 - Click save to store your diary page inside your browser. Saving same date will overwrite old entry.
