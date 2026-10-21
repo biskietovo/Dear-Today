@@ -9,4 +9,22 @@ this website is a scrapbook style daily diary built with HTML, CSS and JavaScrip
 ## how to use it
 - you can choose a date and any type of emojis into each three boxes to decorate your own diary book
 - you can add an optional title or note, it's up to you
--  
+- Live preview updates automatically when you change your content.
+- Browse emoji categories, search keywords or pick from frequently used emojis in the emoji pocket.
+- Click save to store your diary page inside your browser. Saving same date will overwrite old entry.
+- Go to **My notebook** to flip through saved pages, edit or delete existing entries.
+- Go to **Calendar** to view marked saved dates, create or open diary for selected day.
+- Use export button to download current diary draft as PNG image.
+
+## storage and limitations
+All entries are saved in your browser via `localStorage`. No account or backend server needed.
+- Diary will be lost if you clear browser data, change browser or open file from different location.
+- Only one entry allowed per date. Re‑saving a date updates existing page instead of creating duplicate.
+- Twemoji emoji artwork requires internet; offline will show text emoji fallback.
+
+## Project files
+- `index.html` — website HTML structure
+- `style.css` — scrapbook styling and responsive layout
+- `script.js` — interactions, storage, calendar, notebook and PNG export logic
+- `PROCESS.md` — development process and user testing template
+- `CREDITS.md` — credits for fonts, emoji assets and development help
