@@ -5,5 +5,3 @@
 - **Emoji artwork:** Twemoji SVG artwork from the `jdecked/twemoji` project is loaded from jsDelivr for common symbols in the curated picker, preview and notebook. See the project's repository and license before redistribution: https://github.com/jdecked/twemoji
 - **Custom emoji input:** Emojis typed or pasted by the user may be rendered by the user's operating system/browser.
 - **Paper grain and scrapbook details:** CSS styling and text glyphs; no external photos or illustrations are bundled.
-
-Update this file if you add any other assets, icons, libraries or media.
