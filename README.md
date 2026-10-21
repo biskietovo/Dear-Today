@@ -1,12 +1,12 @@
 # Dear Today - Three emoji diary
 this website is a scrapbook style daily diary built with HTML, CSS and JavaScript. In this website, you can capture a day with any three emojis, an optional title and an optional note. It also includes a live preview, browser-local saving, a flip-through notebook, a monthly calendar, edit/delete, validation and PNG export.
 
-## how to run it
+## How to run it
 1. unzip this project.
 2. Open "index.html" in a modern browser.
 3. Stop the server with "Ctrl+C".
 
-## how to use it
+## How to use it
 you can choose a date and any type of emojis into each three boxes to decorate your own diary book.
 
 you can add an optional title or note, it's up to you.
@@ -17,7 +17,7 @@ you can add an optional title or note, it's up to you.
 - Go to **Calendar** to view marked saved dates, create or open diary for selected day.
 - Use export button to download current diary draft as PNG image.
 
-## storage and limitations
+## Storage and limitations
 All entries are saved in your browser via `localStorage`. No account or backend server needed.
 - Diary will be lost if you clear browser data, change browser or open file from different location.
 - Only one entry allowed per date. Re‑saving a date updates existing page instead of creating duplicate.
