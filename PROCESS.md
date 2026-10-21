@@ -4,12 +4,9 @@ At first, I wanted to make a website similar to an MBTI test. Users would answer
 ## version1: building the basic website structure
 The main goal of the first version was to build the basic structure of the website and make sure the main interaction flow worked.
 I started by implementing the following features:
--Users can freely choose three emojis, and the same emoji can be selected more than once.
--Users can select a date and enter a diary title and content.
--Users can see a live preview of their diary while choosing emojis and writing.
--Users can save diary entries and view them later.
--Users can browse their diary entries through the notebook and calendar views.
--Users can edit or delete saved diary entries.
--The diary data is stored in the browser's localStorage. This means the website does not need a database to save entries in the same browser.
-After completing the first version, I felt that the basic diary functions were already in place. However, the emoji selection process and the overall user experience could still be improved.
-
+- Users can freely choose three emojis, and the same emoji can be selected more than once.
+- Users can select a date and enter a diary title and content.
+- Users can see a live preview of their diary while choosing emojis and writing.
+- Users can save diary entries and view them later.
+- Users can browse their diary entries through the notebook and calendar views.
+- Users can edit or delete saved diary entries.
