@@ -19,3 +19,23 @@ If all the emojis were displayed together, users would have to spend more time l
 I also tried to make the emojis look more consistent across different parts of the website, including the selection area, live preview, and diary entries.
 
 However, there was still room to improve the number of available emojis, the categories, and the way emojis were displayed. Therefore, I did not treat Version 2 as the final version and decided to collect more feedback before making further changes.
+
+## Collecting Feedback: Problems Found by My Friends
+Before making further changes, I asked some friends to try the website. Based on their feedback, I identified several noticeable problems.
+### Problem 1: Some text was too small.
+Some of the smaller text was difficult to read. Therefore, I decided to increase the font size where necessary so that instructions and interactive elements would be easier to read.
+
+### Problem 2: Emojis looked different in different places.
+The same emoji could look different in the selection area, live preview, and notebook. I wanted to make the emoji designs as consistent as possible so that the saved diary would look similar to what users saw when making their selections.
+
+### Problem 3: There were not enough emojis to choose from.
+My friends noticed that some emojis they wanted to use were missing from the selection list. For example, they wanted to choose a hamburger emoji but could not find a suitable option.
+
+This made me realise that choosing three emojis is one of the most important interactions on the website. If the selection was too limited, users might find it difficult to express their feelings or daily experiences accurately. Therefore, I decided to increase the number of available emojis significantly.
+
+### Problem 4: The introduction at the top of the page was not direct enough.
+The original subtitle was:
+“A feeling, a bite, a moment. Pick three little symbols and keep a piece of today.”
+This sentence focused more on creating a certain atmosphere, but it did not clearly explain what users should do. Therefore, I changed it to:
+“Pick three emojis to decorate your diary.
+I wanted users to understand the main purpose of the website more quickly when they opened it.
