@@ -1,7 +1,7 @@
-## why I want to do this project?
+## Why I want to do this project?
 At first, I wanted to make a website similar to an MBTI test. Users would answer a few questions, and the website would generate a self-portrait based on their answers. However, when I started working on the idea, I realised that making it work the way I imagined was not as simple as I expected. I also explored several other ideas, but I found that some of them would take too much time and effort to build. After changing my plans a few times, I finally decided to work on this project: Dear Today.
 
-## version1: building the basic website structure
+## Version1: building the basic website structure
 The main goal of the first version was to build the basic structure of the website and make sure the main interaction flow worked.
 I started by implementing the following features:
 - Users can freely choose three emojis, and the same emoji can be selected more than once.
@@ -39,3 +39,17 @@ The original subtitle was:
 This sentence focused more on creating a certain atmosphere, but it did not clearly explain what users should do. Therefore, I changed it to:
 “Pick three emojis to decorate your diary.
 I wanted users to understand the main purpose of the website more quickly when they opened it.
+
+## Version 3: Making Changes Based on Feedback
+After organising the feedback, I decided to keep the original scrapbook style and focus on the problems found during actual use rather than redesigning the entire website.
+The main changes in Version 3 were:
+- Increasing the number of emojis: I expanded the collection to around 200 emojis to give users more choices.
+- Improving the categories: I organised the emojis into six categories: Feelings, Food & Drink, Animals & Nature, Activities, Everyday Life, and Little Extras.
+- Adding a favourites section: I placed a fixed selection of commonly used emojis before the category list to help users find emojis more quickly.
+- Keeping the search function: Users can search for emojis they need, such as “burger”.
+- Making emoji designs more consistent: I tried to keep the emojis consistent across the selection area, preview, notebook, and calendar.
+- Adjusting text size: I increased the size of some smaller text and made a few necessary spacing adjustments.
+- Changing the page introduction: I used a more direct subtitle to explain that users should choose three emojis to decorate their diary.
+- Making the title and note input areas look more consistent: I adjusted the style of the title input field so that it matched the note area better, while keeping the title as a single-line input and the diary content as a multi-line input.
+
+I did not make major changes to the original colours, paper textures, or scrapbook decorations because I wanted the website to keep the design style I had in mind from the beginning.
