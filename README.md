@@ -1,7 +1,7 @@
 # Dear Today - Three emoji diary
 this website is a scrapbook style daily diary built with HTML, CSS and JavaScript. In this website, you can capture a day with any three emojis, an optional title and an optional note. It also includes a live preview, browser-local saving, a flip-through notebook, a monthly calendar, edit/delete and validation.
 ## How to run it
-1. unzip this project or open the website:https://biskietovo.github.io/Dear-Today/
+1. open the website:https://biskietovo.github.io/Dear-Today/
 2. Open "index.html" in a modern browser.
 3. Stop the server with "Ctrl+C".
 
