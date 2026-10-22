@@ -19,7 +19,6 @@ https://biskietovo.github.io/Dear-Today/
 - `style.css` — scrapbook styling and responsive layout
 - `script.js` — interactions, storage, calendar, notebook and PNG export logic
 - `PROCESS.md` — development process and user testing template
-- `CREDITS.md` — credits for fonts, emoji assets and development help
 
 ## Saving and Privacy
 Diary entries are stored in the browser's localStorage on the device and browser being used. There is no account system or server-side diary storage in this version.
