@@ -10,3 +10,12 @@ I started by implementing the following features:
 - Users can save diary entries and view them later.
 - Users can browse their diary entries through the notebook and calendar views.
 - Users can edit or delete saved diary entries.
+
+## Version 2: Improving Emoji Selection
+As I continued developing the website, I started thinking about how users could find the emojis they wanted more easily.
+
+If all the emojis were displayed together, users would have to spend more time looking for specific ones. Therefore, I added categories and a search function. I also created a collection of commonly used emojis so that users could start writing their diaries more quickly.
+
+I also tried to make the emojis look more consistent across different parts of the website, including the selection area, live preview, and diary entries.
+
+However, there was still room to improve the number of available emojis, the categories, and the way emojis were displayed. Therefore, I did not treat Version 2 as the final version and decided to collect more feedback before making further changes.
