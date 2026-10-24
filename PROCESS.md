@@ -20,7 +20,7 @@ I also tried to make the emojis look more consistent across different parts of t
 
 However, there was still room to improve the number of available emojis, the categories, and the way emojis were displayed. Therefore, I did not treat Version 2 as the final version and decided to collect more feedback before making further changes.
 
-## 4. Collecting Feedback: Problems Found by My Friends
+## 4. Feedback and design decisions
 Before making further changes, I asked some friends to try the website. Based on their feedback, I identified several noticeable problems.
 ### Problem 1: Some text was too small.
 Some of the smaller text was difficult to read. Therefore, I decided to increase the font size where necessary so that instructions and interactive elements would be easier to read.
@@ -29,7 +29,7 @@ Some of the smaller text was difficult to read. Therefore, I decided to increase
 The same emoji could look different in the selection area, live preview, and notebook. I wanted to make the emoji designs as consistent as possible so that the saved diary would look similar to what users saw when making their selections.
 
 ### Problem 3: There were not enough emojis to choose from.
-My friends noticed that some emojis they wanted to use were missing from the selection list. For example, they wanted to choose a hamburger emoji but could not find a suitable option.
+Some emojis they wanted to use were missing from the selection list. For example, they wanted to choose a hamburger emoji but could not find a suitable option.
 
 This made me realise that choosing three emojis is one of the most important interactions on the website. If the selection was too limited, users might find it difficult to express their feelings or daily experiences accurately. Therefore, I decided to increase the number of available emojis significantly.
 
@@ -41,15 +41,36 @@ This sentence focused more on creating a certain atmosphere, but it did not clea
 I wanted users to understand the main purpose of the website more quickly when they opened it.
 
 ## 5. Version 3: Making Changes Based on Feedback
-After organising the feedback, I decided to keep the original scrapbook style and focus on the problems found during actual use rather than redesigning the entire website.
-The main changes in Version 3 were:
-- Increasing the number of emojis: I expanded the collection to around 200 emojis to give users more choices.
-- Improving the categories: I organised the emojis into six categories: Feelings, Food & Drink, Animals & Nature, Activities, Everyday Life, and Little Extras.
-- Adding a favourites section: I placed a fixed selection of commonly used emojis before the category list to help users find emojis more quickly.
-- Keeping the search function: Users can search for emojis they need, such as “burger”.
-- Making emoji designs more consistent: I tried to keep the emojis consistent across the selection area, preview, notebook, and calendar.
-- Adjusting text size: I increased the size of some smaller text and made a few necessary spacing adjustments.
-- Changing the page introduction: I used a more direct subtitle to explain that users should choose three emojis to decorate their diary.
-- Making the title and note input areas look more consistent: I adjusted the style of the title input field so that it matched the note area better, while keeping the title as a single-line input and the diary content as a multi-line input.
+The third version focused on making the emoji selection experience more consistent and manageable. The emoji collection was planned around approximately 200 emojis across six categories, with repeated selections allowed. A fixed list of frequently used emojis was chosen so the shortcut area would feel curated rather than unpredictable.
 
-I did not make major changes to the original colours, paper textures, or scrapbook decorations because I wanted the website to keep the design style I had in mind from the beginning.
+I wanted the picker, the selected emoji slots, the preview, the notebook, and the calendar to feel like parts of one consistent experience. This made visual consistency an important part of the later testing.
+
+## 6. Version 4: Simplifying the feature set
+During development, I considered an option to export a diary page as a PNG image. However, this feature did not work reliably enough for the project, so I decided to remove it rather than keep a feature that could make the experience confusing.
+
+This was an important decision for me: a smaller set of reliable features is better than a longer feature list that includes something that does not work properly.
+
+The main functions remained: choosing three emojis, writing an optional title and note, saving diary pages, viewing them in the notebook and calendar, and editing or deleting entries.
+
+## 7. Testing and bug fixing
+Testing showed that small interface details can affect the whole experience. I tested the emoji picker and the three selected slots, including what happened when I clicked the “×” button to clear a selection.
+
+The clearing behaviour needed several rounds of debugging. The selected emoji could remain visible even after the value had been cleared, and later fixes exposed a separate visual issue in how the emoji image was positioned. I tested updated versions in the browser and used the screenshots and results to guide further changes.
+
+I also checked the frequently used emoji section against the built-in collection. Two shortcuts—bubble tea and party popper—were visible in the frequently used area but could not be selected because they were missing from the main collection. I added them to the relevant categories so they could also appear in the full emoji list.
+
+After the latest fixes, I tested the website again and confirmed that the current version behaved as expected.
+
+## 8. What I learned
+This project taught me that building a website is not only about adding features. It also involves noticing small inconsistencies, testing the actual published page, and deciding when a feature should be simplified or removed.
+
+I also learned that a bug can have more than one cause. Changing the JavaScript alone did not always solve the selected-slot issue; the CSS and the way the emoji image was displayed also mattered. Testing each change in the browser was important.
+
+Most importantly, I became more confident in making decisions based on the original purpose of the project. Dear Today is meant to be a small, calm space for remembering everyday life. Keeping the interaction clear and the visual style consistent matters more than making the website as complicated as possible.
+
+## 9. Use of AI tools
+I used ChatGPT as a support tool while developing Dear Today. It helped me discuss ideas, work through HTML/CSS/JavaScript changes, troubleshoot bugs, and prepare project documentation.
+
+I tested the website myself after making changes and used the actual results to decide whether a fix worked. The concept, design direction, feature choices, and final decisions about which changes to keep were guided by me. AI assistance was part of the development process, but it did not replace my own testing and judgement.
+
+Finally, I used translation to translate my content into English.
